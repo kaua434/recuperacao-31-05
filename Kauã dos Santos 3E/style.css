@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 3rem;
+}
+
+.joao{
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+.navbar{
+    border: solid 1px black;
+    padding: 1rem;
+    display: flex;
+    gap: 5rem;
+
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.imagem1{grid-area: foto1;}
+.imagem2{grid-area: foto2;}
+.imagem3{grid-area: foto3;}
+.imagem4{grid-area: foto4;}
+
+.imagens{ 
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    display: grid;
+     grid-template-areas: 'foto1 foto1 foto1  foto1 foto2'
+    'foto3 foto3 foto4 foto4 foto2';}
+
+ .conteudo{
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+} 
+
+footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.fim{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ svg{
+    width: 30px;
+    height: 30px;
+ }
+
+ .icones{
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+ }
+
